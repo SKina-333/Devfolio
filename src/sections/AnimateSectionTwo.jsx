@@ -6,8 +6,8 @@ export default function AnimateSectionTwo() {
   return (
     <div className="h-screen flex flex-row items-center w-1/2 gap-10">
       <div className="flex flex-col gap-8 w-3/6 ">
-        <p className="text-8xl font-bold font-Poppins">Methodology</p>
-        <p className="text-2xl font-bold font-Playfair text-left leading-tight ">
+        <p className="text-6xl font-bold font-Poppins">Methodology</p>
+        <p className="text-xl font-bold font-Playfair text-left leading-tight ">
           Hands-on experience with the structured approach of{" "}
           <span className="font-Dancing">Waterfall</span> and the dynamic
           flexibility of <span className="font-Dancing">Agile</span>, allowing
