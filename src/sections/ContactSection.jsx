@@ -12,11 +12,11 @@ export default function ContactSection() {
   const [name, setName] = useState("");
 
   return (
-    <div className="2xl:h-screen lg:w-1/2  flex flex-col p-5 justify-center items-center gap-10 border border-white">
+    <div className="2xl:h-screen lg:w-1/2  flex flex-col p-5 justify-center items-center gap-10 ">
       <div className="text-6xl font-bold font-Poppins">
         Let&apos;s work together
       </div>
-      <div className="flex flex-col lg:flex-row w-full h-3/4 sm:gap-0 gap-10 border border-green-500 ">
+      <div className="flex flex-col lg:flex-row w-full h-3/4 sm:gap-0 gap-10 ">
         <div className="w-full bg-white text-black flex flex-col justify-center items-center gap-20 rounded-xl py-10">
           <div className=" flex flex-col gap-10 2xl:text-3xl text-xl p-5">
             <div className="flex flex-col gap-5">

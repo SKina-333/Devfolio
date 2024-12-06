@@ -1,8 +1,10 @@
 import React from "react";
 
-import mySQL from "../assets/mysql.png"
-import mongoDB from "../assets/mongodb.png"
-import postgres from "../assets/postgres.png"
+import mySQL from "../assets/mysql.png";
+import mongoDB from "../assets/mongodb.png";
+import postgres from "../assets/postgres.png";
+import github from "../assets/github.png";
+import spotify from "../assets/spotify.png";
 
 export default function SkillSection() {
   return (
@@ -75,8 +77,20 @@ export default function SkillSection() {
               <div className="flex flex-col gap-5">
                 <p>Others</p>
                 <div className="flex flex-rows flex-wrap gap-5">
-                  <div className="group bg-git bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                  <div className="group bg-spotify bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16 bg-[length:160%_80%]"></div>
+                  <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                    <img
+                      src={github}
+                      alt="Git Logo"
+                      className="w-full h-full"
+                    />
+                  </div>
+                  <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                    <img
+                      src={spotify}
+                      alt="Spotify Logo"
+                      className="  object-contain aspect-square"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -84,9 +98,7 @@ export default function SkillSection() {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <div>
-          Animation
-        </div>
+        <div>Animation</div>
       </div>
     </div>
   );
