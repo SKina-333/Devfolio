@@ -18,7 +18,6 @@ export default function AnimateSectionTwo() {
           trigger: container.current,
           start: "top bottom",
           toggleActions: "play pause resume none",
-        
         },
         repeat: -1,
       });
@@ -48,33 +47,30 @@ export default function AnimateSectionTwo() {
   return (
     <div
       ref={container}
-      className="h-screen flex flex-row items-center w-1/2 gap-10 p-2 text-nowrap"
+      className=" flex flex-col items-center lg:w-1/2 w-full gap-10 p-2 text-nowrap "
     >
-      <div className="flex flex-col gap-8 w-3/6 ">
-        <p className="text-1xl font-bold font-Poppins">Methodology</p>
-        <p className="text-xl font-bold font-Playfair text-left leading-tight text-wrap">
+      <div className="flex flex-col gap-16 ">
+        <p className="text-6xl font-bold font-Poppins">Methodology</p>
+        <p className=" text-4xl font-Playfair text-left leading-tight text-wrap">
           Hands-on experience with the structured approach of{" "}
           <span className="font-Dancing">Waterfall</span> and the dynamic
           flexibility of <span className="font-Dancing">Agile</span>, allowing
           me to adapt to diverse project needs and deliver effective solutions
         </p>
       </div>
-      <div className="flex flex-row grow items-start ">
-        <div
-          id="waterfall"
-          className="w-1/2 aspect-square relative left-1/2 opacity-0 "
-        >
+      <div className="relative flex w-1/2 items-center justify-center  aspect-square">
+        <div id="waterfall" className="absolute w-full h-full opacity-0">
           <img
             src={waterfall}
             alt="waterfall methodology logo"
-            className="w-full h-full object-contain scale-150"
+            className="w-full h-full object-contain"
           />
         </div>
-        <div id="agile" className="w-1/2 aspect-square ">
+        <div id="agile" className="absolute w-full h-full">
           <img
             src={agile}
             alt="agile methodology logo"
-            className="w-full h-full object-contain scale-150"
+            className="w-full h-full object-contain"
           />
         </div>
       </div>

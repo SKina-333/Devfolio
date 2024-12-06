@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div id="smooth-wrapper">
-      <div id="smooth-content" className="flex flex-col items-center">
+      <div id="smooth-content" className="flex flex-col items-center gap-5">
         <MainSection />
         <AnimateSectionOne />
         <SkillSection />
