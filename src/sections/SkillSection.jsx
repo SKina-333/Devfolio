@@ -1,5 +1,9 @@
 import React from "react";
 
+import mySQL from "../assets/mysql.png"
+import mongoDB from "../assets/mongodb.png"
+import postgres from "../assets/postgres.png"
+
 export default function SkillSection() {
   return (
     <div className="h-screen flex lg:flex-row flex-col lg:w-1/2 items-center justify-stretch p-5  gap-5 lg:mt-16 mt-0">
@@ -43,9 +47,27 @@ export default function SkillSection() {
               <div className="flex flex-col gap-5">
                 <p>Databases</p>
                 <div className="flex flex-rows flex-wrap gap-5">
-                  <div className="group bg-mysql bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                  <div className="group bg-mongodb bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                  <div className="group bg-postgres bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
+                  <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                    <img
+                      src={mySQL}
+                      alt="MySQL Logo"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                    <img
+                      src={mongoDB}
+                      alt="MongoDB Logo"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                    <img
+                      src={postgres}
+                      alt="Postgres Logo"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
                 </div>
               </div>
 
