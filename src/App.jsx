@@ -4,7 +4,6 @@ import "./App.css";
 
 import MainSection from "./sections/MainSection";
 import ContactSection from "./sections/ContactSection";
-import FooterSection from "./sections/FooterSection";
 import SkillSection from "./sections/SkillSection";
 import AnimateSectionOne from "./sections/AnimateSectionOne";
 import AnimateSectionTwo from "./sections/AnimateSectionTwo";
@@ -30,7 +29,7 @@ function App() {
         <AnimateSectionTwo />
         <ProjectSection />
         <ContactSection />
-        <FooterSection />
+        
       </div>
     </div>
       

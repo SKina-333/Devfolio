@@ -2,8 +2,8 @@ import React from "react";
 
 export default function SkillSection() {
   return (
-    <div className="h-screen flex flex-row w-1/2 items-center">
-      <div>
+    <div className="h-screen flex lg:flex-row flex-col lg:w-1/2 items-center justify-center border border-white">
+      <div className="border border-green-500">
         <div className="flex flex-col gap-8">
           <h3 className="text-5xl font-Poppins font-bold">My Skills</h3>
           <p className="font-Poppins text-1xl font-semibold">
@@ -61,7 +61,7 @@ export default function SkillSection() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center shrink">
+      <div className="flex items-center justify-center shrink border border-green-500">
         <div>
           Animation
         </div>

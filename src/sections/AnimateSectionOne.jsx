@@ -11,24 +11,27 @@ export default function AnimateSectionOne() {
   useGSAP(
     () => {
       gsap.to("#textBoxOne", {
-        duration: 0.5,
-        color: "#4b5563",
+        duration: 1,
+        color: "#ffffff",
         scrollTrigger: {
           trigger: "#textBoxOne",
-          start: "top 40%",
-          toggleActions: "play pause pause reverse"
+          start: "top bottom",
+          end:"top",
+          toggleActions: "play reverse restart restart",
+          
         },
-        ease: "power1.out",
+        ease: "power1.inOut",
       });
       gsap.to("#textBoxTwo", {
-        duration: 0.5,
+        duration: 1,
         color: "#ffffff",
         scrollTrigger: {
           trigger: "#textBoxTwo",
-          start: "-65% 40%",
-          toggleActions: "play pause pause reverse"
+          start: "top center",
+          toggleActions: "play none none reverse",
+          
         },
-        ease: "power1.out",
+        ease: "power1.inOut",
       });
       
     },
@@ -37,16 +40,16 @@ export default function AnimateSectionOne() {
   return (
     <div
       ref={container}
-      className="h-screen flex flex-col justify-center items-center w-1/2  md:text-5xl font-bold "
+      className="h-screen flex flex-col  lg:w-1/2 font-bold text-5xl sm:text-6xl 2xl:text-8xl"
     >
-      <div id="textBoxOne" className="text-white">
-        <p className="font-Poppins">
+      <div id="textBoxOne" className="text-gray-600 h-1/2 flex flex-row items-end justify-center">
+        <p className="font-Poppins p-5">
           I thrive on bringing ideas to life through code and design.
         </p>
       </div>
 
-      <div id="textBoxTwo" className="text-gray-600">
-        <p className="font-Playfair">
+      <div id="textBoxTwo" className="text-gray-600 h-1/2 flex flex-row items-start justify-center">
+        <p className="font-Playfair p-5">
           Passionate about turning complex problems into simple, beautiful
           solutions.
         </p>

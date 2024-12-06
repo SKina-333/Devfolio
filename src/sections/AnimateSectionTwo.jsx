@@ -16,8 +16,9 @@ export default function AnimateSectionTwo() {
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: container.current,
-          start: "top top",
+          start: "top bottom",
           toggleActions: "play pause resume none",
+        
         },
         repeat: -1,
       });
@@ -47,11 +48,11 @@ export default function AnimateSectionTwo() {
   return (
     <div
       ref={container}
-      className="h-screen flex flex-row items-center w-1/2 gap-10"
+      className="h-screen flex flex-row items-center w-1/2 gap-10 p-2 text-nowrap"
     >
       <div className="flex flex-col gap-8 w-3/6 ">
-        <p className="text-6xl font-bold font-Poppins">Methodology</p>
-        <p className="text-xl font-bold font-Playfair text-left leading-tight ">
+        <p className="text-1xl font-bold font-Poppins">Methodology</p>
+        <p className="text-xl font-bold font-Playfair text-left leading-tight text-wrap">
           Hands-on experience with the structured approach of{" "}
           <span className="font-Dancing">Waterfall</span> and the dynamic
           flexibility of <span className="font-Dancing">Agile</span>, allowing
