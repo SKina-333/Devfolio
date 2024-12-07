@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 ScrollTrigger.config({ ignoreMobileResize: true });
+ScrollTrigger.normalizeScroll(true)
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function ProjectSection() {
@@ -13,6 +14,7 @@ export default function ProjectSection() {
     () => {
       let tl = gsap.timeline({
         scrollTrigger: {
+          
           trigger: container.current,
           start: "top top",
           end:"bottom top",
