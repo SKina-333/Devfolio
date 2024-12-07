@@ -18,7 +18,7 @@ export default function AnimateSectionOne() {
           start: "top bottom",
           end:"top",
           toggleActions: "play reverse restart restart",
-          
+          markers:true
         },
         ease: "power1.inOut",
       });
@@ -29,7 +29,7 @@ export default function AnimateSectionOne() {
           trigger: "#textBoxTwo",
           start: "top center",
           toggleActions: "play none none reverse",
-          markers:true
+          
         },
         ease: "power1.inOut",
       });
