@@ -11,16 +11,15 @@ export default function MainSection() {
 
   useGSAP(
     () => {
-      const tl = gsap.timeline({ repeat: 1, repeatDelay: 2});
+      const tl = gsap.timeline({ repeat: -1});
       tl.fromTo(
         "#containerOne", 
         { x: '-100%' }, 
         {
           x: '100%',
           duration: 35, 
-          repeat: -1, 
           ease: "none",
-          
+          repeat:-1
         },
         
       );
@@ -30,8 +29,8 @@ export default function MainSection() {
         {
           x: '100%',
           duration: 35, 
-          repeat: -1, 
           ease: "none", 
+          repeat:-1
         },"-=16"
       );
     },
@@ -73,13 +72,13 @@ export default function MainSection() {
           <p className="">Front-end developer. </p>
           <p className="">Back-end developer. </p>
           <p className="">UI/UX Design.</p>
-          <p className="lg:pr-96 pl-64">Animation.</p>
+          <p className="2xl:pr-96  lg:pr-64 pr-28">Animation.</p>
         </div>
         <div
           id="containerTwo"
           className="absolute text-nowrap overflow-hidden flex flex-row 2xl:text-9xl 2xl:gap-80 gap-20 lg:text-6xl text-4xl font-bold text-gray-600 will-change-transform "
         >
-          <p className="lg:pl-96 pl-64">Front-end developer. </p>
+          <p className="2xl:pl-96  lg:pl-64 pl-28">Front-end developer. </p>
           <p className="">Back-end developer. </p>
           <p className="">UI/UX Design.</p>
           <p className="">Animation.</p>
