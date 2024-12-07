@@ -13,7 +13,7 @@ export default function ContactSection() {
 
   return (
     <div className="2xl:h-screen lg:w-1/2  flex flex-col p-5 justify-center items-center gap-10 ">
-      <div className="lg:text-6xl text-2xl font-bold font-Poppins border border-white">
+      <div className="lg:text-6xl text-2xl font-bold font-Poppins ">
         Let&apos;s work together
       </div>
       <div className="flex flex-col lg:flex-row w-full h-3/4 sm:gap-0 gap-10 ">

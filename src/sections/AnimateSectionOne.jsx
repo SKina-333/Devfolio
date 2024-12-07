@@ -18,7 +18,7 @@ export default function AnimateSectionOne() {
           start: "top bottom",
           end:"top",
           toggleActions: "play reverse restart restart",
-          markers:true
+         
         },
         ease: "power1.inOut",
       });
