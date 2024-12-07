@@ -40,7 +40,7 @@ export default function AnimateSectionOne() {
   return (
     <div
       ref={container}
-      className="h-screen flex flex-col lg:w-1/2 font-bold text-5xl sm:text-6xl 2xl:text-8xl"
+      className="h-screen flex flex-col lg:w-1/2 font-bold text-4xl sm:text-6xl 2xl:text-8xl border border-white"
     >
       <div id="textBoxOne" className="text-gray-600 h-1/2 flex flex-row items-end justify-center">
         <p className="font-Poppins p-5">

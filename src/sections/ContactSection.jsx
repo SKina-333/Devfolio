@@ -12,8 +12,8 @@ export default function ContactSection() {
   const [name, setName] = useState("");
 
   return (
-    <div className="2xl:h-screen lg:w-1/2  flex flex-col p-5 justify-center items-center gap-10 ">
-      <div className="text-6xl font-bold font-Poppins">
+    <div className="2xl:h-screen lg:w-1/2  flex flex-col p-5 justify-center items-center gap-10 border border-white">
+      <div className="lg:text-6xl text-2xl font-bold font-Poppins border border-white">
         Let&apos;s work together
       </div>
       <div className="flex flex-col lg:flex-row w-full h-3/4 sm:gap-0 gap-10 ">
@@ -24,7 +24,7 @@ export default function ContactSection() {
                 <MapPinIcon className="2xl:size-10 size-6 text-black" />
                 <p>Address</p>
               </div>
-              <p className="font-Poppins 2xl:text-xl text-lg font-semibold text-wrap">
+              <p className="font-Poppins 2xl:text-xl text-sm font-semibold text-wrap">
                 53 Solsbury Cres, Keysborough, 3173, VIC
               </p>
             </div>
@@ -34,7 +34,7 @@ export default function ContactSection() {
                 <PhoneIcon className="2xl:size-10 size-6 text-black" />
                 <p>Phone Number</p>
               </div>
-              <p className="font-Poppins 2xl:text-xl text-lg font-semibold">
+              <p className="font-Poppins 2xl:text-xl text-sm font-semibold">
                 +61 481 776 611
               </p>
             </div>
@@ -43,7 +43,7 @@ export default function ContactSection() {
                 <EnvelopeIcon className="2xl:size-10 size-6 text-black" />
                 <p>Email</p>
               </div>
-              <p className="font-Poppins 2xl:text-xl text-lg font-semibold">
+              <p className="font-Poppins 2xl:text-xl text-sm font-semibold">
                 skprojx.devstack@gmail.com
               </p>
             </div>

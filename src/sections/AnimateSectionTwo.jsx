@@ -47,11 +47,11 @@ export default function AnimateSectionTwo() {
   return (
     <div
       ref={container}
-      className=" flex flex-col items-center lg:w-1/2 w-full gap-10 p-2 text-nowrap "
+      className="lg:h-screen flex flex-col items-center lg:w-1/2 w-full gap-10 p-2 text-nowrap border border-white"
     >
       <div className="flex flex-col gap-16 ">
-        <p className="text-6xl font-bold font-Poppins">Methodology</p>
-        <p className=" text-4xl font-Playfair text-left leading-tight text-wrap">
+        <p className="sm:text-6xl text-3xl font-bold font-Poppins">Methodology</p>
+        <p className=" sm:text-4xl text-xl font-Playfair text-left leading-tight text-wrap">
           Hands-on experience with the structured approach of{" "}
           <span className="font-Dancing">Waterfall</span> and the dynamic
           flexibility of <span className="font-Dancing">Agile</span>, allowing

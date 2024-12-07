@@ -5,14 +5,27 @@ import mongoDB from "../assets/mongodb.png";
 import postgres from "../assets/postgres.png";
 import github from "../assets/github.png";
 import spotify from "../assets/spotify.png";
+import react from "../assets/react.png";
+import express from "../assets/express.png";
+import tailwind from "../assets/tailwind.png";
+import cakephp from "../assets/cakephp.png";
+import gsap from "../assets/gsap.jpg";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import vite from "../assets/vite.png";
+import node from "../assets/nodejs.png";
+import php from "../assets/php.png";
+import postman from "../assets/postman.png";
+import figma from "../assets/figma.png";
 
 export default function SkillSection() {
   return (
-    <div className="h-screen flex lg:flex-row flex-col lg:w-1/2 items-center justify-stretch p-5  gap-5 lg:mt-16 mt-0">
+    <div className="lg:h-screen flex lg:flex-row flex-col lg:w-1/2 items-center justify-stretch p-5  gap-5 lg:mt-16 mt-0 border border-white">
       <div className="">
         <div className="flex flex-col gap-8">
-          <h3 className="text-6xl font-Poppins font-bold">My Skills</h3>
-          <p className="font-Poppins text-lg font-semibold text-wrap">
+          <h3 className="sm:text-6xl text-3xl font-Poppins font-bold">My Skills</h3>
+          <p className="font-Poppins sm:text-lg text-sm font-semibold text-wrap">
             Bringing innovation to life through clean code, creative design, and
             seamless functionality.
           </p>
@@ -21,14 +34,62 @@ export default function SkillSection() {
             <div className="flex flex-col gap-5">
               <p>Languages and Tools</p>
               <div className="flex flex-rows flex-wrap w-10/12 gap-5">
-                <div className="group bg-html  bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16 lg:bg-[length:38px_45px] bg-[length:50px_57px] 2xl:bg-[length:50px_57px]"></div>
-                <div className="group bg-css bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-javascript bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-vite bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-node bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-php bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-postman bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-figma bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={html}
+                    alt="HTML Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={css}
+                    alt="CSS Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={javascript}
+                    alt="JavaScript Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={vite}
+                    alt="Vite Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={node}
+                    alt="Node.js Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={php}
+                    alt="PHP Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={postman}
+                    alt="Postman Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={figma}
+                    alt="Figma Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               </div>
             </div>
 
@@ -36,11 +97,41 @@ export default function SkillSection() {
             <div className="flex flex-col gap-5">
               <p>Frameworks and Libraries</p>
               <div className="flex flex-rows flex-wrap w-10/12 gap-5">
-                <div className="group bg-react bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-express bg-white bg-[length:70%_60%] bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16 rounded-full"></div>
-                <div className="group bg-tailwind bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-cakePHP bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
-                <div className="group bg-gsap bg-contain bg-center bg-no-repeat aspect-square 2xl:w-16 lg:w-12 w-16"></div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={react}
+                    alt="React Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center rounded-full bg-white">
+                  <img
+                    src={express}
+                    alt="Express Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={tailwind}
+                    alt="Tailwind Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={cakephp}
+                    alt="CakePHP Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="group aspect-square 2xl:w-16 lg:w-12 w-16 flex items-center justify-center">
+                  <img
+                    src={gsap}
+                    alt="GSAP Logo"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               </div>
             </div>
 
