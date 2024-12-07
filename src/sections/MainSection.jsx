@@ -148,7 +148,7 @@ export default function MainSection() {
       </section>
       <div
         ref={container}
-        className="text-center w-full 2xl:text-9xl 2xl:gap-80 lg:text-6xl text-4xl font-bold text-gray-600 text-nowrap overflow-hidden py-5 flex flex-row gap-20"
+        className="text-center w-full 2xl:text-9xl 2xl:gap-80 lg:text-6xl text-4xl font-bold text-gray-600 text-nowrap overflow-hidden py-5 flex flex-row gap-20 will-change-transform"
       >
         <p className="2xl:pl-80 lg:pl-36 pl-20">Front-end developer. </p>
         <p>Back-end developer. </p>
