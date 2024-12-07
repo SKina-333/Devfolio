@@ -68,18 +68,18 @@ export default function MainSection() {
       <div ref={container} className="flex flex-row overflow-x-hidden text-nowrap w-full relative border border-purple-50 2xl:h-36 lg:h-20 h-10">
         <div
           id="containerOne"
-          className="absolute border border-white text-nowrap overflow-hidden flex flex-row 2xl:text-9xl 2xl:gap-80 gap-20 lg:text-6xl text-4xl font-bold text-gray-600 will-change-transform "
+          className="absolute text-nowrap overflow-hidden flex flex-row 2xl:text-9xl 2xl:gap-80 gap-20 lg:text-6xl text-4xl font-bold text-gray-600 will-change-transform "
         >
           <p className="">Front-end developer. </p>
           <p className="">Back-end developer. </p>
           <p className="">UI/UX Design.</p>
-          <p className="pr-96">Animation.</p>
+          <p className="lg:pr-96 pl-64">Animation.</p>
         </div>
         <div
           id="containerTwo"
-          className="absolute border border-green-500 text-nowrap overflow-hidden flex flex-row 2xl:text-9xl 2xl:gap-80 gap-20 lg:text-6xl text-4xl font-bold text-gray-600 will-change-transform "
+          className="absolute text-nowrap overflow-hidden flex flex-row 2xl:text-9xl 2xl:gap-80 gap-20 lg:text-6xl text-4xl font-bold text-gray-600 will-change-transform "
         >
-          <p className="pl-96">Front-end developer. </p>
+          <p className="lg:pl-96 pl-64">Front-end developer. </p>
           <p className="">Back-end developer. </p>
           <p className="">UI/UX Design.</p>
           <p className="">Animation.</p>
