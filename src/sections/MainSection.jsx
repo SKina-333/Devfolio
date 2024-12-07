@@ -114,7 +114,7 @@ export default function MainSection() {
         return tl;
       }
       const items = gsap.utils.toArray(container.current.children); // Get all child elements
-      horizontalLoop(items, { repeat:-1 ,duration: 20 }); // Adjust duration as needed
+      horizontalLoop(items, { repeat:-1 ,speed:1}); // Adjust duration as needed
     },
     { scope: container }
   );
