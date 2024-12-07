@@ -15,7 +15,7 @@ export default function ProjectSection() {
         scrollTrigger: {
           trigger: container.current,
           start: "top top",
-          end:"200%",
+          end:"bottom top",
           pin: true,
           pinSpacing: true,
           scrub: 0.5,
