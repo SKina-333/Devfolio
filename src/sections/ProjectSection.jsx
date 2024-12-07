@@ -21,7 +21,7 @@ export default function ProjectSection() {
           pin: true,
           pinSpacing: true,
           scrub: 0.5,
-          markers:true
+   
         },
       });
 
@@ -38,7 +38,7 @@ export default function ProjectSection() {
   return (
     <div
       ref={container}
-      className="lg:h-screen lg:w-1/2 w-full flex flex-col justify-center gap-5 p-5 border border-white "
+      className="lg:h-screen lg:w-1/2 w-full flex flex-col justify-center gap-5 p-5 "
     >
       <div className="flex flex-col gap-5">
         <p className="lg:text-6xl text-3xl font-bold font-Poppins">My Project</p>

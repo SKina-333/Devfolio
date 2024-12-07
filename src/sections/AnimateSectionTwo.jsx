@@ -47,7 +47,7 @@ export default function AnimateSectionTwo() {
   return (
     <div
       ref={container}
-      className="lg:h-screen flex flex-col items-center lg:w-1/2 w-full gap-10 p-2 text-nowrap border border-white"
+      className="lg:h-screen flex flex-col items-center lg:w-1/2 w-full gap-10 p-2 text-nowrap"
     >
       <div className="flex flex-col gap-16 ">
         <p className="sm:text-6xl text-3xl font-bold font-Poppins">Methodology</p>

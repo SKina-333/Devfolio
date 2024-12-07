@@ -21,7 +21,7 @@ import figma from "../assets/figma.png";
 
 export default function SkillSection() {
   return (
-    <div className="lg:h-screen flex lg:flex-row flex-col lg:w-1/2 items-center justify-stretch p-5  gap-5 lg:mt-16 mt-0 border border-white">
+    <div className="lg:h-screen flex lg:flex-row flex-col lg:w-1/2 items-center justify-stretch p-5  gap-5 lg:mt-16 mt-0 ">
       <div className="">
         <div className="flex flex-col gap-8">
           <h3 className="sm:text-6xl text-3xl font-Poppins font-bold">My Skills</h3>
