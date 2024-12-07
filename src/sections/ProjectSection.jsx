@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 ScrollTrigger.config({ ignoreMobileResize: true });
-ScrollTrigger.normalizeScroll(true)
+
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function ProjectSection() {
