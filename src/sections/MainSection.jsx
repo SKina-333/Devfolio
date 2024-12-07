@@ -15,7 +15,7 @@ export default function MainSection() {
     { scope: container }
   );
   return (
-    <div className="lg:h-screen min-h-full flex flex-col w-full lg:gap-0 gap-72">
+    <div className="lg:h-screen  flex flex-col w-full lg:gap-0 gap-64 mb-24">
       <NavComponent />
       <section
         ref={container}
