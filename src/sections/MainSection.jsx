@@ -65,7 +65,7 @@ export default function MainSection() {
           </span>
         </p>
       </section>
-      <div ref={container} className="flex flex-row overflow-x-hidden text-nowrap w-full relative border border-purple-50 2xl:h-36 lg:h-20 h-10">
+      <div ref={container} className="flex flex-row overflow-x-hidden text-nowrap w-full relative  2xl:h-36 lg:h-20 h-10">
         <div
           id="containerOne"
           className="absolute text-nowrap overflow-hidden flex flex-row 2xl:text-9xl 2xl:gap-80 gap-20 lg:text-6xl text-4xl font-bold text-gray-600 will-change-transform "
