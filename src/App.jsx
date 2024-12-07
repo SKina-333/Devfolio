@@ -21,8 +21,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div id="smooth-wrapper">
-      <div id="smooth-content" className="flex flex-col items-center gap-5">
+    <div id="smooth-wrapper h-full">
+      <div id="smooth-content h-full" className="flex flex-col items-center gap-5">
         <MainSection />
         <AnimateSectionOne />
         <SkillSection />

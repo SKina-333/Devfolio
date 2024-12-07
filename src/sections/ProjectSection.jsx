@@ -38,19 +38,19 @@ export default function ProjectSection() {
   return (
     <div
       ref={container}
-      className="h-screen lg:w-1/2 w-full flex flex-col justify-center gap-5 p-5 border border-white"
+      className="lg:h-screen lg:w-1/2 w-full flex flex-col justify-center gap-5 p-5 border border-white "
     >
       <div className="flex flex-col gap-5">
         <p className="lg:text-6xl text-3xl font-bold font-Poppins">My Project</p>
         <p className="lg:text-2xl text-lg font-Poppins">Projects that I have worked on</p>
       </div>
-      <div className="w-full h-1/2 border border-b-white flex flex-row overflow-hidden gap-5">
-        <div id="box1" className="bg-red-600 aspect-square"></div>
-        <div id="box2" className="bg-blue-600 aspect-square"></div>
-        <div id="box3" className="bg-green-600 aspect-square"></div>
-        <div id="box4" className="bg-red-600 aspect-square"></div>
-        <div id="box5" className="bg-blue-600 aspect-square"></div>
-        <div id="box6" className="bg-green-600 aspect-square"></div>
+      <div className="w-full  border border-b-white flex flex-row overflow-y-hidden gap-5">
+        <div id="box1" className="bg-red-600 h-10 w-10"></div>
+        <div id="box2" className="bg-blue-600 h-10 w-10"></div>
+        <div id="box3" className="bg-green-600 h-10 w-10"></div>
+        <div id="box4" className="bg-red-600 h-10 w-10"></div>
+        <div id="box5" className="bg-blue-600 h-10 w-10"></div>
+        <div id="box6" className="bg-green-600 h-10 w-10"></div>
       </div>
     </div>
   );
