@@ -37,7 +37,7 @@ export default function ProjectSection() {
           Projects that I have worked on
         </p>
       </div>
-      <div className="w-ful flex lg:flex-row flex-col flex-wrap gap-10">
+      <div className="w-full flex lg:flex-row flex-col flex-wrap gap-10">
         <div
           id="box"
           className="flex flex-row rounded-lg bg-white text-black p-5 font-Poppins gap-5 justify-between"
