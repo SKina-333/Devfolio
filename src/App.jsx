@@ -1,38 +1,48 @@
 import { useState } from "react";
 
 import "./App.css";
-
+import NavComponent from "./components/NavComponent";
+import ScrollLinked from "./components/ScrollLinked";
 import MainSection from "./sections/MainSection";
 import ContactSection from "./sections/ContactSection";
 import SkillSection from "./sections/SkillSection";
 import AnimateSectionOne from "./sections/AnimateSectionOne";
-import AnimateSectionTwo from "./sections/AnimateSectionTwo";
-import ProjectSection from "./sections/ProjectSection"
+import Experience from "./sections/Experience";
+import ProjectSection from "./sections/ProjectSection";
 
-import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
-
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-
-gsap.registerPlugin(useGSAP, ScrollTrigger);
+import * as motion from "motion/react-client";
+import { Cursor } from "motion-cursor";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [cursorColor, setCursorColor] = useState("rgba(255, 255, 255, 0.5)");
+  
   return (
-    <div id="smooth-wrapper h-full">
-      <div id="smooth-content h-full" className="flex flex-col items-center gap-5">
-        <MainSection />
-        <AnimateSectionOne />
-        <SkillSection />
-        <AnimateSectionTwo />
-        <ProjectSection />
-        <ContactSection />
-        
+    <div className="flex flex-col relative">
+      <Cursor
+        className=""
+        style={{
+          backgroundColor: cursorColor,
+         
+        }}
+        variants={{
+          text: {
+            backgroundColor: "#001fff",
+          },
+          
+        }}
+      />
+      <div className="sticky top-0 z-50">
+        <NavComponent />
+        <ScrollLinked />
       </div>
+
+      <MainSection />
+      <AnimateSectionOne />
+      <SkillSection />
+      <Experience />
+      <ProjectSection />
+      <ContactSection />
     </div>
-      
   );
 }
 
