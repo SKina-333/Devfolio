@@ -9,19 +9,19 @@ export default {
     extend: {
       backgroundImage:{
         'IDM':"url('./assets/idm.png')",
-        'Tailwind':"url('./assets/Tailwind.png')",
+        'Tailwind':"url('./assets/tailwind.png')",
         'SQL':"url('./assets/SQL.png')",
         'React':"url('./assets/react.png')",
-        'PHP':"url('./assets/PHP.png')",
+        'PHP':"url('./assets/php.png')",
         'JS':"url('./assets/JS.png')",
         'HTML':"url('./assets/html.png')",
         'Git':"url('./assets/Git.png')",
-        'Figma':"url('./assets/Figma.png')",
+        'Figma':"url('./assets/figma.png')",
         'Extra':"url('./assets/Extra.png')",
         'Css':"url('./assets/css.png')",
         'LinkedIn':"url('./assets/LinkedIn.png')",
         'Discord':"url('./assets/Discord.png')",
-        'Github':"url('./assets/Github.png')",
+        'Github':"url('./assets/github.png')",
         'Whatapps':"url('./assets/Whatapps.png')",
         'Monash':"url('./assets/Monash.png')",
         'Colorado':"url('./assets/Colorado.png')",
@@ -29,7 +29,7 @@ export default {
         'Chat':"url('./assets/ChatIcon.png')",
         'Gym':"url('./assets/GymIcon.png')",
         'Cart':"url('./assets/CartIcon.png')",
-        'Sketch':"url('./assets/Sketch.png')",
+        'Sketch':"url('./assets/sketch.png')",
         
         
       },
