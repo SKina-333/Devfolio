@@ -7,9 +7,9 @@ export default function ContactSection() {
   const [name, setName] = useState("");
 
   return (
-    <div className="h-screen py-28 px-16 ">
-      <h2 className="text-7xl font-Poppins font-bold">Let's work together.</h2>
-      <div className="flex flex-row gap-10 mt-36 text-black">
+    <div className="h-screen 2xl:py-28 py-10 px-16 border border-white">
+      <h2 className="2xl:text-7xl text-6xl font-Poppins font-bold">Let's work together.</h2>
+      <div className="flex flex-row gap-10 2xl:mt-36 mt-10 text-black">
         <div className="flex flex-col gap-8 font-Poppins">
           <div className="h-[190px] w-[630px] bg-white rounded-2xl flex flex-col p-10 justify-center gap-10">
             <div className="flex justify-center font-semibold text-2xl ">
