@@ -31,48 +31,53 @@ export default function MainSection() {
         </motion.div>
       </div>
 
-      <div className="flex flex-row relative mb-28 overflow-x-clip">
+      <div className="flex py-10 mb-28 overflow-x-hidden">
         <motion.div
+          initial={{ x: 0 }}
+          animate={{ x: "-100%" }}
+          transition={{
+            repeat: Infinity,
+            duration: 40,
+            ease: "linear",
+          }}
+          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-shrink-0 gap-44"
+        >
+          <p>ATION.</p>
+          <p>UX/UI DESIGN.</p>
+          <p>BACKEND.</p>
+          <p>ANIMATION.</p>
+          <p>UX/UI DESIGN.</p>
+          <p>BACKEND.</p>
+          <p>ANIMATION.</p>
+          <p>UX/UI DESIGN.</p>
+          <p>BACKEND.</p>
+          <p>ANIM</p>
           
-          animate={{ x: "-100vw" }}
-          transition={{
-            repeat: 1,
-            duration: 5,
-            ease: "linear",
-          }}
-          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-row gap-44 absolute bottom-0"
-        >
-          <p>BACKEND.</p>
-          <p>UX/UI DESIGN.</p>
-          <p>ANIMATION.</p>
+          
         </motion.div>
         <motion.div
-          animate={{ x: ["100vw", "-100vw"] }}
+         initial={{ x: 0 }}
+         animate={{ x: "-100%" }}
           transition={{
             repeat: Infinity,
-            duration: 10,
+            duration: 40,
             ease: "linear",
           }}
-          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-row gap-44 absolute bottom-0"
+          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-shrink-0 gap-44"
         >
-          <p>BACKEND.</p>
+          <p>ATION.</p>
           <p>UX/UI DESIGN.</p>
-          <p>ANIMATION.</p>
-        </motion.div>
-        <motion.div
-          animate={{ x: ["100vw", "-100vw"] }}
-          transition={{
-            repeat: Infinity,
-            duration: 10,
-            ease: "linear",
-            delay: 5,
-          }}
-          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-row gap-44 absolute bottom-0"
-        >
           <p>BACKEND.</p>
-          <p>UX/UI DESIGN.</p>
           <p>ANIMATION.</p>
+          <p>UX/UI DESIGN.</p>
+          <p>BACKEND.</p>
+          <p>ANIMATION.</p>
+          <p>UX/UI DESIGN.</p>
+          <p>BACKEND.</p>
+          <p>ANIM</p>
+          
         </motion.div>
+        
       </div>
     </div>
   );

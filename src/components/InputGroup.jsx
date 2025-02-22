@@ -9,8 +9,8 @@ export default function InputGroup({
   onChange,
 }) {
   return (
-    <div className="rounded-md bg-gray-100 px-3 pb-1.5 pt-2.5  focus-within:outline-white-600">
-      <label htmlFor={name} className="block mb-3 text-xs text-gray-800 font-bold">
+    <div className="rounded-md bg-gray-100 px-3 2xl:pb-1.5 2xl:pt-2.5 pb-1 pt-2  focus-within:outline-white-600">
+      <label htmlFor={name} className="block 2xl:mb-3 text-xs text-gray-800 font-bold">
         {labelName}
       </label>
       {type === "textarea" ? (
