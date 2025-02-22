@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
+import { useCursorHoverContext } from "../sections/contexts/cursorHoverContext.jsx";
+  
 
 export default function Experience() {
+  const { setIsHovering, setImageText } = useCursorHoverContext();
   return (
     <div className="h-screen p-16 border border-white">
       <h2 className="2xl:text-7xl text-6xl font-Poppins font-bold">Experience</h2>
@@ -26,9 +29,36 @@ export default function Experience() {
         </div>
 
         <div className="flex flex-row justify-evenly 2xl:mt-20 mt-6">
-          <div className="bg-contain bg-no-repeat bg-Monash 2xl:h-[130px] 2xl:w-[400px] h-[80px] w-[240px]"></div>
-          <div className="bg-contain bg-no-repeat bg-Colorado 2xl:h-[130px] 2xl:w-[400px] h-[80px] w-[240px]"></div>
-          <div className="bg-contain bg-no-repeat bg-ACET 2xl:h-[130px] 2xl:w-[400px] h-[80px] w-[240px]"></div>
+          <div className="bg-contain bg-no-repeat bg-Monash 2xl:h-[130px] 2xl:w-[400px] h-[80px] w-[240px]"
+            onMouseEnter={() => {
+              setIsHovering(true);
+              setImageText("3 years bachelor program");
+            }}
+            onMouseLeave={() => {
+              setIsHovering(false);
+              setImageText("");
+            }}
+          ></div>
+          <div className="bg-contain bg-no-repeat bg-Colorado 2xl:h-[130px] 2xl:w-[400px] h-[80px] w-[240px]"
+            onMouseEnter={() => {
+              setIsHovering(true);
+              setImageText("3 months certificate program");
+            }}
+            onMouseLeave={() => {
+              setIsHovering(false);
+              setImageText("");
+            }}
+          ></div>
+          <div className="bg-contain bg-no-repeat bg-ACET 2xl:h-[130px] 2xl:w-[400px] h-[80px] w-[240px]"
+            onMouseEnter={() => {
+              setIsHovering(true);
+              setImageText("3 months internship program");
+            }}
+            onMouseLeave={() => {
+              setIsHovering(false);
+              setImageText("");
+            }}
+          ></div>
         </div>
         <h3 className="2xl:text-8xl text-7xl font-Poppins font-bold absolute -right-16 -rotate-90 2xl:top-32 top-24">
           2024

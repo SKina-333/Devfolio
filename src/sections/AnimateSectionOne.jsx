@@ -65,7 +65,7 @@ export default function AnimateSectionOne() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, ease: "linear", delay: 1 }}
           viewport={{ once: true }}
-          className="font-Playfair "
+          className="font-Playfair text-nowrap"
         >
           Passionate about turning complex
         </motion.p>
@@ -74,7 +74,7 @@ export default function AnimateSectionOne() {
           whileInView={{ opacity: 1, x: 0, repeatCount:0 }}
           transition={{ duration: 0.7, ease: "linear", delay: 1 }}
           viewport={{ once: true }}
-          className="font-Playfair "
+          className="font-Playfair text-nowrap"
         >
           problems into simple, beautiful
         </motion.p>
@@ -83,7 +83,7 @@ export default function AnimateSectionOne() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, ease: "linear", delay: 1 }}
           viewport={{ once: true }}
-          className="font-Playfair"
+          className="font-Playfair text-nowrap"
         >
           solutions.
         </motion.p>
