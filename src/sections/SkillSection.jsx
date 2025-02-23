@@ -4,7 +4,7 @@ export default function SkillSection() {
   const { setIsHovering, setImageText } = useCursorHoverContext();
 
   return (
-    <div className=" h-screen p-16 border border-white ">
+    <div className=" h-screen p-16 ">
       <h2 className="2xl:text-7xl text-6xl font-Poppins font-bold 2xl:mx-96">
         Skills
       </h2>

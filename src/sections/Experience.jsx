@@ -5,7 +5,7 @@ import { useCursorHoverContext } from "../sections/contexts/cursorHoverContext.j
 export default function Experience() {
   const { setIsHovering, setImageText } = useCursorHoverContext();
   return (
-    <div className="h-screen p-16 border border-white">
+    <div className="h-screen p-16 ">
       <h2 className="2xl:text-7xl text-6xl font-Poppins font-bold">Experience</h2>
       <div className=" 2xl:mt-36 mt-10 flex flex-col 2xl:gap-10 gap-5 overflow-clip relative">
         <div className="flex flex-col">
