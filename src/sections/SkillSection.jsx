@@ -4,7 +4,7 @@ export default function SkillSection() {
   const { setIsHovering, setImageText } = useCursorHoverContext();
 
   return (
-    <div className=" h-screen lg:p-16 p-5">
+    <div className=" lg:h-screen h-[920px] lg:p-16 p-5">
       <h2 className="2xl:text-7xl lg:text-6xl text-4xl font-Poppins font-bold 2xl:mx-96">
         Skills
       </h2>

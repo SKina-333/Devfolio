@@ -7,7 +7,7 @@ export default function ContactSection() {
   const [name, setName] = useState("");
 
   return (
-    <div className="h-screen 2xl:py-28 lg:py-10 lg:px-16 p-5 border border-white">
+    <div className="lg:h-screen h-[920px] 2xl:py-28 lg:py-10 lg:px-16 p-5 ">
       <h2 className="2xl:text-7xl lg:text-6xl text-4xl font-Poppins font-bold">Let's work together.</h2>
       <div className="flex lg:flex-row flex-col lg:gap-10 gap-4 2xl:mt-36 mt-10 text-black">
         <div className="flex flex-col lg:gap-8 gap-4 font-Poppins">

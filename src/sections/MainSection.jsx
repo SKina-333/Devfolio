@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function MainSection() {
   return (
-    <div className="h-screen text-nowrap w-full flex flex-col ">
+    <div className="lg:h-screen h-[920px] text-nowrap w-full flex flex-col ">
       <div className="flex flex-col items-center justify-center h-full  relative">
         <div className="absolute lg:rotate-90 lg:right-0 lg:top-0 bottom-44 pt-10 lg:flex items-center hidden">
           <div className="w-[64px] h-[1.5px] bg-white n"></div>
