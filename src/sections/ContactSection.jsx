@@ -20,13 +20,13 @@ export default function ContactSection() {
               <button>+61 481 776 611</button>
             </div>
           </div>
-          <div className="flex flex-row gap-8">
-            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] w-[197px] rounded-2xl cursor-pointer bg-LinkedIn 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#2968B2]"></div>
-            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] w-[200px] rounded-2xl cursor-pointer bg-Github 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#1B2C3A]"></div>
+          <div className="flex flex-row lg:gap-8 justify-between">
+            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] lg:w-[200px] w-[170px] rounded-2xl cursor-pointer bg-LinkedIn 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#2968B2]"></div>
+            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] lg:w-[200px] w-[170px] rounded-2xl cursor-pointer bg-Github 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#1B2C3A]"></div>
           </div>
-          <div className="flex flex-row gap-8">
-            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] w-[200px] rounded-2xl cursor-pointer bg-Discord 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#5B67B0]"></div>
-            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] w-[200px] rounded-2xl cursor-pointer bg-Whatapps 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#41B649]"></div>
+          <div className="flex flex-row lg:gap-8 justify-between">
+            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] lg:w-[200px] w-[170px] rounded-2xl cursor-pointer bg-Discord 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#5B67B0]"></div>
+            <div className="2xl:h-[190px] 2xl:w-[300px] h-[100px] lg:w-[200px] w-[170px] rounded-2xl cursor-pointer bg-Whatapps 2xl:bg-cover bg-contain bg-no-repeat bg-center bg-[#41B649]"></div>
           </div>
           
         </div>
