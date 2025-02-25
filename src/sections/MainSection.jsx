@@ -6,9 +6,9 @@ export default function MainSection() {
   return (
     <div className="h-screen text-nowrap w-full flex flex-col ">
       <div className="flex flex-col items-center justify-center h-full  relative">
-        <div className="absolute rotate-90 right-0 pt-10 flex items-center ">
-          <div className="w-[64px] h-[1.5px] bg-white"></div>
-          <span className="ml-2 text-white font-Poppins text-xl">scroll</span>
+        <div className="absolute lg:rotate-90 lg:right-0 lg:top-0 bottom-44 pt-10 lg:flex items-center hidden">
+          <div className="w-[64px] h-[1.5px] bg-white n"></div>
+          <span className="ml-2 text-white font-bold font-Poppins text-xl">Scroll down</span>
         </div>
         <motion.h1
           initial={{ opacity: 0, scale: 0.8 }}
@@ -17,11 +17,11 @@ export default function MainSection() {
             duration: 2,
             scale: { type: "spring", visualDuration: 2 },
           }}
-          className="font-Poppins text-8xl font-bold"
+          className="font-Poppins lg:text-8xl text-5xl font-bold"
         >
           SOKINA HO
         </motion.h1>
-        <motion.div className="flex flex-row gap-2 text-2xl relative left-[165px]">
+        <motion.div className="flex flex-row gap-2 lg:text-2xl text-lg relative lg:left-[165px] left-12">
           <p className="font-Poltawski bg-gradient-to-r from-blue-700 to-blue-500 inline-block text-transparent bg-clip-text font-semibold">
             Junior
           </p>
@@ -40,7 +40,7 @@ export default function MainSection() {
             duration: 40,
             ease: "linear",
           }}
-          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-shrink-0 gap-44"
+          className=" lg:text-5xl text-2xl text-[#AAB4DD] font-[700] flex flex-shrink-0 gap-44"
         >
           <p>ATION.</p>
           <p>UX/UI DESIGN.</p>
@@ -63,7 +63,7 @@ export default function MainSection() {
             duration: 40,
             ease: "linear",
           }}
-          className=" text-5xl text-[#AAB4DD] font-[700] flex flex-shrink-0 gap-44"
+          className=" lg:text-5xl text-2xl text-[#AAB4DD] font-[700] flex flex-shrink-0 gap-44"
         >
           <p>ATION.</p>
           <p>UX/UI DESIGN.</p>

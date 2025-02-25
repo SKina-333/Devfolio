@@ -17,7 +17,7 @@ function App() {
   const [cursorColor, setCursorColor] = useState("rgba(255, 255, 255, 0.5)");
   const { isHovering, imageText } = useCursorHoverContext();
   return (
-    <div className="flex flex-col relative">
+    <div className="flex flex-col relative overflow-clip">
       <Cursor
         className=""
         style={{

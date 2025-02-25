@@ -20,7 +20,7 @@ export default function Typewriter({ text }) {
 
     return (
         <h2 className="relative">
-            <motion.span className="font-poppins font-semibold text-2xl text-wrap">{children}</motion.span>
+            <motion.span className="font-poppins font-semibold lg:text-2xl text-md text-wrap">{children}</motion.span>
             <motion.div
                 className="absolute right-[-10px] top-0 bottom-0 w-[2px] bg-[#001fff] opacity-0 "
                 whileInView={{

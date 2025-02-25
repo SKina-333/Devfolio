@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function AnimateSectionOne() {
   return (
-    <div className="h-screen flex flex-col gap-20 font-bold 2xl:text-8xl text-6xl p-28 items-center justify-center ">
+    <div className="h-screen flex flex-col lg:gap-20 gap-10 font-bold 2xl:text-8xl lg:text-6xl text-xl p-28 items-center justify-center ">
       <div id="textBoxOne" className="text-white  flex flex-col items-start ">
         <div className="flex flex-col justify-center ">
           <motion.div className="relative w-full ">
