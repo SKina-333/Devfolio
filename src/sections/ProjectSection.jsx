@@ -3,9 +3,9 @@ import React, { useRef } from "react";
 
 export default function ProjectSection() {
   return (
-    <div className="h-screen p-16 ">
-      <h2 className="2xl:text-7xl text-6xl font-Poppins font-bold">Projects</h2>
-      <div className="flex flex-row gap-20 2xl:mt-36 mt-20">
+    <div className="h-screen lg:p-16 p-5">
+      <h2 className="2xl:text-7xl lg:text-6xl text-4xl font-Poppins font-bold">Projects</h2>
+      <div className="flex flex-row lg:gap-20 gap-14 2xl:mt-36 mt-20 flex-wrap items-center">
         <div className="flex flex-col gap-5 ">
           <div className="2xl:h-[250px] 2xl:w-[250px] h-[150px] w-[150px] bg-Chat bg-cover rounded-xl"></div>
           <div className="font-Anonymous 2xl:text-2xl text-lg">
