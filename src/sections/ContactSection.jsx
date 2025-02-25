@@ -9,7 +9,7 @@ export default function ContactSection() {
   return (
     <div className="lg:h-screen h-[920px] 2xl:py-28 lg:py-10 lg:px-16 p-5 ">
       <h2 className="2xl:text-7xl lg:text-6xl text-4xl font-Poppins font-bold">Let's work together.</h2>
-      <div className="flex lg:flex-row flex-col lg:gap-10 gap-4 2xl:mt-36 mt-10 text-black">
+      <div className="flex lg:flex-row flex-col items-center lg:gap-10 gap-4 2xl:mt-36 mt-10 text-black">
         <div className="flex flex-col lg:gap-8 gap-4 font-Poppins">
           <div className="2xl:h-[190px] 2xl:w-[630px] lg:h-[130px] lg:w-[420px] h-[100px] w-[370px] bg-white rounded-2xl flex flex-col 2xl:p-10 justify-center 2xl:gap-10 gap-5">
             <div className="flex justify-center font-semibold 2xl:text-2xl lg:text-md text-sm">
